@@ -1,0 +1,36 @@
+*{margin: 0%;}
+#imageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 170vh;
+    margin: auto;
+}    
+
+h1{
+ text-align: center;
+ text-decoration: underline;
+ margin-bottom: 60px;
+}
+
+.wrapper{
+    background-color: grey;
+}
+
+#imageContainer img{
+    height: 30vh;
+    width: 35vh;
+    border-radius: 10px 10px 0px 0px;
+}    
+
+#imageContainer p{
+    background-color:lightgrey;
+    height: 50px;
+    margin-top: -5px;
+    border-radius: 0px 0px 6px 6px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 7vh;
+    margin-bottom: 50px;
+}

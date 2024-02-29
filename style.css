@@ -3,7 +3,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 100wh;
     margin: auto;
 }    
 
@@ -19,19 +18,21 @@ h1{
 }
 
 #imageContainer img{
-    height: 30vh;
-    width: 34vw;
+    height: 23vh;
+    width: 20vw;
     border-radius: 10px 10px 0px 0px;
+    margin: 1px;
 }    
 
 #imageContainer p{
     background-color:lightgrey;
-    height: 50px;
+    height: 7vh;
+    width: 20vw;
     margin-top: -5px;
     border-radius: 0px 0px 6px 6px;
     text-align: center;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 100%;
     line-height: 7vh;
     margin-bottom: 50px;
 }

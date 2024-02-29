@@ -14,7 +14,8 @@ h1{
 }
 
 .wrapper{
-    background-color: grey;
+    width: 100%;
+    background-color:azure;
 }
 
 #imageContainer img{
